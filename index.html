@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo alura">
+    </header>
+    <main class="container">
+        <section>
+            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"><img src="img/bi_exclamation-circle-fill.png"> Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+                <button class="refresh" onclick="location.href = location.href"><img class="reload" src="img/refresh.png" alt="imagen refrescar pagina"></button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/diegosavinas"><img class="logo-footer" src="img/github.png" alt="logo github"></a>
+        <a href="https://www.facebook.com/diegovinascooficial/"><img class="logo-footer" src="img/facebook.png" alt="logo github"></a>
+        <a href="https://www.linkedin.com/in/diego-vinasco/"><img class="logo-footer" src="img/linkedin.png" alt="logo github"></a>
+        <h5>Desarrollado por Diego Vinasco - Alura Latam G4</h5>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

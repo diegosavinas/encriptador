@@ -1,0 +1,171 @@
+*{
+    background:white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: auto;
+}
+
+.logo:hover{
+    scale: 1.1;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 630px;
+    width: 400px;
+    background: #D8DFE8;
+    background-image: url("img/Muneco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{
+   font-size: 35px;
+}
+
+.btn-desencriptar:hover{
+    font-size: 35px;
+ }
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 300px;
+}
+
+.copiar:hover{
+    font-size: 35px;
+}
+
+.refresh{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin: auto;
+    margin-left: 440px;
+    margin-top: 565px;
+    position: fixed;
+    width: 70px;
+}
+
+.refresh:hover{
+    font-size: 38px;
+}
+
+.informacion {
+    color: #495057;
+    font-size:18px;
+}
+
+.logo-footer{
+    background: none;
+    width: 70px;
+    display: inline;
+    margin-bottom: 22px;
+}
+
+.logo-footer:hover{
+   transform: rotate(360deg);
+   transition: 500ms;
+}
+
+footer{
+    background: none;
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 180px;
+    padding: 10px;
+}
+
+h5{
+    font-size: 23px;
+    color: #495057;
+    width: 600px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.reload{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.reload:active{
+    transform: rotate(360deg);
+    transition: 500ms;
+}
